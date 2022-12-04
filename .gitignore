@@ -34,3 +34,4 @@
 # Data files
 days/**/*.txt
 days/**/input
+template.cpp
