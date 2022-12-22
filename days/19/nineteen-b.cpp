@@ -59,6 +59,7 @@ BotState* CopyBot(const BotState& old)
     b->obsBots = old.obsBots;
     b->geoBots = old.geoBots;
     b->minutes = old.minutes;
+    return b;
 }
 
 inline bool operator<(const BotState& l, const BotState& r)
